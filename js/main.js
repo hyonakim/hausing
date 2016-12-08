@@ -6,7 +6,10 @@ import moment from 'moment';
 
 import config from './config';
 
+// CONTROLLERS
+
+
 angular
-  .module('app', '[ui.router'])
+  .module('app', ['ui.router'])
   .config(config)
 ;
